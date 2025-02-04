@@ -49,9 +49,9 @@ export default function MainBody() {
   }
 
   return (
-    <div className="Seating p-2">
+    <div className="Seating p-lg-2 p-0">
       <h1>Please find your seat</h1>
-      <form onSubmit={handleSearch} className="search-form d-flex gap-2">
+      <form onSubmit={handleSearch} className="search-form d-flex columns">
         <input
           type="text"
           value={fullName}
@@ -59,7 +59,7 @@ export default function MainBody() {
           placeholder="Enter your full name..."
           className="search-form-input"
         />
-        <button type="submit" className="search-form-button">
+        <button type="submit" className="search-form-button d-flex">
           Search
         </button>
       </form>

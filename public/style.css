@@ -40,3 +40,13 @@ p {
   font-family: "ivypresto-display", serif;
   color: red;
 }
+
+@media (max-width: 525px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}

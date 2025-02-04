@@ -45,3 +45,9 @@ input[type="text"] {
 input:focus {
   outline: solid #8c8c8c;
 }
+
+@media (max-width: 525px) {
+  form .search-form-input {
+    width: 100%;
+  }
+}

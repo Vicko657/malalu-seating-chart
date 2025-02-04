@@ -7,3 +7,12 @@ img.logo {
   margin: 0 auto;
   width: 90%;
 }
+
+@media (max-width: 525px) {
+  header {
+    padding-bottom: 30px;
+  }
+  img.logo {
+    width: 800px !important;
+  }
+}
