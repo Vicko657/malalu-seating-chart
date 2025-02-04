@@ -1,0 +1,9 @@
+header {
+  padding-bottom: 50px;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
