@@ -14,6 +14,7 @@ h1 {
   font-style: normal;
   font-size: 30px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -43,7 +44,6 @@ p {
 @media (max-width: 525px) {
   h1 {
     font-size: 24px;
-    text-align: center;
   }
   h2 {
     font-size: 18px;
