@@ -12,3 +12,9 @@ p.mini-title {
 
   font-family: "ivypresto-display", serif;
 }
+
+@media (max-width: 525px) {
+  p.mini-title {
+    font-size: 12px;
+  }
+}

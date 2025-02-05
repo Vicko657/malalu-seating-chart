@@ -51,7 +51,7 @@ export default function MainBody() {
   return (
     <div className="Seating p-lg-2 p-0">
       <h1>Please find your seat</h1>
-      <form onSubmit={handleSearch} className="search-form d-flex columns">
+      <form onSubmit={handleSearch} className="search-form d-flex ">
         <input
           type="text"
           value={fullName}

@@ -50,4 +50,7 @@ input:focus {
   form .search-form-input {
     width: 100%;
   }
+  form .search-form-button {
+    padding: 15px 20px;
+  }
 }

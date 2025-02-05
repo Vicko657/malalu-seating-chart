@@ -38,7 +38,6 @@ h4 {
 
 p {
   font-family: "ivypresto-display", serif;
-  color: red;
 }
 
 @media (max-width: 525px) {
@@ -48,5 +47,12 @@ p {
   }
   h2 {
     font-size: 18px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  h4 {
+    font-size: 50px;
   }
 }
