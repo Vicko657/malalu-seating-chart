@@ -1,12 +1,7 @@
 import React, { useState } from "react";
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "./utils/supabase";
 import "./MainBody.css";
 import SeatingInfo from "./SeatingInfo";
-
-const supabaseUrl = "https://asexjmxxlaivvgbcsqvu.supabase.co";
-const supabaseKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFzZXhqbXh4bGFpdnZnYmNzcXZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc5MzU1OTAsImV4cCI6MjA1MzUxMTU5MH0.7HOhI7b5V6C1Bbva7NIk82Z7KIyGgMXfsAXCApfdTls";
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function MainBody() {
   const [fullName, setFullName] = useState("");
