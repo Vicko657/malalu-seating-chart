@@ -52,6 +52,7 @@ export default function MainBody() {
           value={fullName}
           onChange={handleFullName}
           placeholder="Enter your full name..."
+          required
           className="search-form-input"
         />
         <button type="submit" className="search-form-button d-flex">
