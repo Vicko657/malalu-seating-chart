@@ -1,0 +1,14 @@
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 64%;
+}
+
+@media (max-width: 525px) {
+  header {
+    padding-bottom: 20px;
+  }
+  img.logo {
+    width: 300px !important;
+  }
+}

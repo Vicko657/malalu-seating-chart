@@ -1,0 +1,21 @@
+.table-info {
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+p.mini-title {
+  color: black;
+  font-size: 15px;
+  margin: 0;
+  font-weight: 300;
+  font-family: "ivypresto-display", serif;
+}
+.guest {
+  margin-bottom: 30px;
+}
+@media (max-width: 525px) {
+  p.mini-title {
+    font-size: 14px;
+  }
+}
