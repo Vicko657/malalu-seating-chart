@@ -8,7 +8,7 @@ body {
 
 @font-face {
   font-family: Helostar;
-  src: url(fonts/helostar-helostar-400.ttf);
+  src: url("/fonts/helostar-helostar-400.ttf");
 }
 h1 {
   font-family: "Helostar";
