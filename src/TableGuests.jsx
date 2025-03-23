@@ -1,5 +1,4 @@
 import React from "react";
-import "./TableGuests.css";
 
 export default function TableGuests({ guests }) {
   if (!guests || guests.length === 0) return null;
