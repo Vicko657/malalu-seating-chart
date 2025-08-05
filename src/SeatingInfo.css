@@ -14,6 +14,7 @@ p.mini-title {
 .guest {
   margin-bottom: 10px;
 }
+
 @media (max-width: 525px) {
   p.mini-title {
     font-size: 14px;
