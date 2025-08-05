@@ -11,7 +11,7 @@ export default function TableGuests({ guests }) {
       </div>
       <div className="row">
         {guests.map((guest) => (
-          <div key={guest.id} className="col-lg-4 col-5">
+          <div key={guest.id} className="col-lg-4 col-6">
             <p className="mb-1">{guest.full_name}</p>
           </div>
         ))}
