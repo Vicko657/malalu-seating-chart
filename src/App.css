@@ -27,6 +27,6 @@
   }
   .right-column {
     background-image: url("/imgs/sarah_shekinah_mobile.jpg");
-    background-size: contain;
+    background-size: cover;
   }
 }

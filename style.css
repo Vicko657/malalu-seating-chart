@@ -11,19 +11,20 @@ body {
   src: url("/fonts/helostar-helostar-400.ttf");
 }
 h1 {
-  font-family: "Helostar";
+  font-family: "ivypresto-display", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 45px;
+  font-size: 60px;
   padding-bottom: 20px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: "ivypresto-display", serif;
   font-weight: 100;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   padding: 5px;
 }
 
@@ -38,11 +39,13 @@ h4 {
   font-size: 16px;
   font-family: "ivypresto-display", serif;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 p {
   font-family: "ivypresto-display", serif;
   font-weight: 300;
+  font-size: 14px;
 }
 ul {
   padding: 0;
@@ -51,10 +54,11 @@ ul {
 
 @media (max-width: 525px) {
   h1 {
-    font-size: 34px;
+    font-size: 48px;
   }
   h2 {
     font-size: 16px;
+    padding: 0px;
   }
   h3 {
     font-size: 22px;
@@ -63,6 +67,6 @@ ul {
     font-size: 15px;
   }
   p {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

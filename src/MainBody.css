@@ -3,17 +3,16 @@ form .search-form-input {
   border-radius: 6px;
   width: 100%;
   margin-right: 10px;
-  font-size: 17px;
+  font-size: 16px;
   padding: 15px 20px;
   background-color: #f3f3f3;
-  letter-spacing: 0.3px;
 }
 form .search-form-input::placeholder {
   color: #8c8c8c;
   font-family: "ivypresto-display", serif;
   font-weight: 300;
-  font-style: normal;
   letter-spacing: 0.3px;
+  font-style: normal;
 }
 
 form .search-form-button {
@@ -21,12 +20,12 @@ form .search-form-button {
   background-color: black;
   border-radius: 6px;
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   padding: 15px 50px;
   font-family: "ivypresto-display", serif;
   font-weight: 300;
-  letter-spacing: 0.3px;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 form .search-form-button:hover {
@@ -39,6 +38,7 @@ li {
 
 input[type="text"] {
   font-family: "ivypresto-display", serif;
+  font-weight: 300;
 }
 
 input:focus {
@@ -48,10 +48,10 @@ input:focus {
 @media (max-width: 525px) {
   form .search-form-input {
     width: 100%;
-    font-size: 15px;
+    font-size: 16px;
   }
   form .search-form-button {
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 16px;
   }
 }

@@ -24,7 +24,7 @@ export default function MainBody() {
 
   return (
     <div className="seating p-lg-2 p-0">
-      <h1>Please find your seat</h1>
+      <h1>Find your seat</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
         noValidate

@@ -1,7 +1,11 @@
 img.logo {
   display: block;
   margin: 0 auto;
-  width: 64%;
+  width: 56%;
+}
+
+header {
+  padding-top: 50px;
 }
 
 @media (max-width: 525px) {
