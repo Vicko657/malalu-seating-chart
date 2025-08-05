@@ -61,10 +61,10 @@ select:-webkit-autofill {
 @media (max-width: 525px) {
   form .search-form-input {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
   }
   form .search-form-button {
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
