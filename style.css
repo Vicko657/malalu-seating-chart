@@ -15,7 +15,7 @@ h1 {
   font-weight: 100;
   font-style: normal;
   font-size: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -55,6 +55,7 @@ ul {
 @media (max-width: 525px) {
   h1 {
     font-size: 48px;
+    padding-bottom: 2px;
   }
   h2 {
     font-size: 16px;
